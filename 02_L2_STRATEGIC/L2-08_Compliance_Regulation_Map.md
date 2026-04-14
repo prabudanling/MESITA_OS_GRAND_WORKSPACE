@@ -57,5 +57,3 @@ Melahirkan ceruk ekonomi baru seperti *Civilization Medical Tourism* memantik ke
 ---
 
 **Kerangka hukum ini telah menancap sebagai benteng peradaban yang absolut. Tidak ada ruang abu-abu bagi operasional kita.**
-
-Apakah kita akan menekan pedal gas untuk mengeksekusi **Dok 09: Ecosystem Strategy** untuk merajut seluruh asosiasi dan kementerian dalam satu kekuatan utuh, atau **Dok 11: PRD (Product Requirements Document)** untuk memberikan arsitektur ini nyawa digitalnya (*source code*)? Ketik **NEXT** untuk melangkah maju, atau **LANJUTKAN** beserta instruksi prioritas Anda!
