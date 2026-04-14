@@ -52,10 +52,36 @@ Menembus pasar global berarti berhadapan dengan regulasi privasi data terketat d
 3.  **Global Golden Visa Integration:** Platform Nusaparadise.id memiliki hak istimewa terkoneksi dengan Imigrasi RI untuk menerbitkan "Golden Visa Peradaban" secara instan (1x24 jam) khusus bagi *High Net Worth Individuals* (HNWI) global yang memarkirkan dananya di platform *NusaInvest*.
 
 ---
+## 2. DOK 10: INTERNATIONAL EXPANSION & GLOBAL HEGEMONY (Updated)
+Strategi untuk menghancurkan dominasi Maladewa dan merebut pasar liburan tropis mewah dunia senilai USD 500+ Miliar.
 
-**PENUTUP DOKUMEN 10**
-*Dokumen 10 telah mengunci strategi geopolitik dan pasar internasional. Kita tidak hanya mengundang dunia ke Indonesia, kita membawa Indonesia untuk merevolusi tata kelola dunia.*
+* **Maldives-Killer Strategy:** Kita menonjolkan keunggulan asimetris: Indonesia memiliki **108.000 km garis pantai** (100x lebih panjang dari Maladewa) dan biodiversitas laut 2x lebih tinggi.
+* **Penetrasi 7 Kluster Strategis:** *Website* akan memasarkan 7 Kluster Pesisir (Bali-Nusa Tenggara, Segitiga Karang Timur, Sumatera Samudra Hindia, dsb.) secara spesifik sesuai profil wisatawan (misal: turis Eropa untuk Kluster Raja Ampat, turis Timur Tengah untuk Kluster Mewah Bali).
+* **Ekspor Sistem Operasi:** Di Fase Omega (2041-2045), teknologi kita tidak hanya untuk Indonesia. Kita akan melisensikan **Civilization OS** dan **Village Paradise OS** ke **15 negara berkembang** di Asia dan Afrika.
+* **Target Pendapatan Agregat:** Peta jalan kita menargetkan pendapatan tahunan **USD 60 Miliar pada 2030** dan menembus **USD 100 Miliar pada 2045**.
+
+## 3. ARSITEKTUR KONTEN WEBSITE (Nusaparadise.id Development Map)
+Agar kamu bisa langsung membangun *website*-nya, inilah struktur navigasi dan logika sistem yang harus ada di *homepage*:
+
+### A. Portal "NusaInvest" (Pintu Investor)
+* **Dashboard Peluang:** Menampilkan 365+ proyek pipeline (Eco-Resort, Heritage Hotel, MICE).
+* **ROI Calculator:** Alat bantu bagi investor untuk menghitung proyeksi IRR (12-18% untuk Flagship Resort) secara *real-time*.
+* **B2B Deal Matching:** Portal interaktif yang menghubungkan *Sovereign Wealth Funds* (seperti PIF atau Temasek) dengan proyek-proyek strategis di 34 Provinsi.
+
+### B. Portal "NusaGo" (Pintu Wisatawan VVIP)
+* **7 Kluster Pesisir:** Peta interaktif 300 Destinasi Pantai Premium.
+* **Phygital Experience:** Pemesanan kamar bawah laut (*Submarine Luxury*) dan akses ke metaverse "Digital Twin" resor.
+* **AI Tour Guide (12 Bahasa):** Algoritma kurasi personal yang merancang perjalanan berdasarkan preferensi (Budaya, Petualangan, Spiritualitas).
+
+### C. Portal "Village Paradise" (Jantung KNBMP)
+* **Status Desa Wisata:** Menampilkan data *live* 75.000 desa yang terdigitalisasi.
+* **Live SHU Ticker:** Angka perputaran uang yang kembali ke rakyat secara *real-time* untuk membuktikan transparansi.
+
+## 4. MASTER ROADMAP MOBILISASI MODAL (2025-2035)
+Website kamu harus mencerminkan fase-fase keberhasilan ini untuk membangun kepercayaan global:
+
+1.  **Fase 1 (2025-2027) - Fondasi:** Mobilisasi modal awal **USD 30 Miliar**, peluncuran platform beta, dan aktivasi 100 destinasi awal.
+2.  **Fase 2 (2027-2030) - Akselerasi:** Ekspansi ke 300 destinasi pesisir, mobilisasi modal kumulatif **USD 120 Miliar**, dan penciptaan 1 Juta lapangan kerja langsung.
+3.  **Fase 3 (2030-2035) - Hegemoni:** IPO (Initial Public Offering) atau eksekusi strategi *exit* bagi investor awal, serta dominasi total sebagai platform pariwisata nomor 1 di dunia.
 
 ---
-
-Ketik **LANJUTKAN 18** atau **LANJUTKAN 19** untuk mengeksekusi langsung secara utuh A-J!
