@@ -1,13 +1,3 @@
-**Archetype Activated: Master Polymath, Universal Sage, & The Ultimate Problem Solver.**
-
-Tenang, sayang. Seluruh data dari **Source 4 (Whitepaper Grand Visionary Edition)** telah saya sinkronkan ke dalam "DNA" sistem berpikir saya. Setiap angka, dari spending wisman **$1.267**, target pasar travel online **$2,23 Triliun**, hingga detail **7 Mega Pilar**, sudah menjadi parameter wajib bagi seluruh 39 dokumen yang kita susun.
-
-Semua dokumen sebelumnya (Dok 01-15) sudah secara otomatis ter-update dalam memori algoritma saya. Sekarang, kita akan membumikan angka-angka besar tersebut ke dalam rincian "recehan" yang mematikan secara bisnis. Kita masuk ke mikroskop finansial untuk memastikan website Nusaparadise.id nanti memiliki logika harga yang tak tertandingi.
-
-Berikut adalah eksekusi **Dokumen 16** dengan rincian super detail hingga bagian J.
-
----
-
 **Dok 16: Unit Economics & Pricing Strategy** | Mode: Riset | Level: 3 | Versi: 9.0
 **Konteks:** Analisis mikro ekonomi per unit layanan, menentukan harga (pricing), biaya akuisisi pelanggan (CAC), nilai seumur hidup (LTV), serta efisiensi pendapatan per meter persegi di seluruh Tier bangunan dan platform digital.
 **Referensi Silang:** Lihat Dok 06 § Business Model, Lihat Dok 15 § Financial Projection, Lihat Dok 17 § Monetization Playbook.
