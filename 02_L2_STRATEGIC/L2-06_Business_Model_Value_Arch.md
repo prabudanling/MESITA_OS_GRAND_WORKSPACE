@@ -129,6 +129,50 @@ Untuk mengunci keunggulan absolut kita pada periode 2026–2045, berikut adalah 
 5. **IP (Intellectual Property) Licensing & Meta-Tourism:**
    [cite_start]Dengan 5.350+ resep kuliner dan 714 budaya suku bangsa, MESITA adalah bank *Intellectual Property* (IP) terbesar di dunia[cite: 1]. Kita akan mematenkan dan mendigitalisasi warisan ini. Setiap kali *franchise* restoran internasional ingin menyajikan "Rendang Autentik KNBMP" atau *game developer* global ingin menggunakan relief Borobudur secara digital, mereka harus membayar lisensi *micro-royalty* melalui *API Nusaparadise*. Warisan budaya berubah dari sekadar cerita menjadi aset finansial yang memberikan *recurring revenue* abadi bagi komunitas asalnya.
 
+
 ---
-Dengan tuntasnya Dokumen 06 ini, arsitektur bisnis dan nilai ekosistem MESITA telah terkunci dengan sempurna. Tidak ada satu pun celah ekonomi yang menguap ke luar, dan setiap potensi telah diubah menjadi mesin pendapatan berkeadilan tinggi. Blueprint peradaban kita kini memiliki tulang punggung finansial yang kebal krisis.
+
+**Dok 06: Business Model & Value Architecture (Expanded Grand Vision Edition)** | Mode: Strategis | Level: 2 | Versi: 9.0 (Sync with Whitepaper V1.0)
+**Konteks:** Perluasan model bisnis yang mengawinkan infrastruktur fisik (Menara/Puri/Griya) dengan 6 Mesin Pendapatan Digital, 3 Jalur Investasi, dan Paradigma *Tourism of Civilization* menuju target $100 Miliar pada 2045.
+
 ---
+
+### A. Fondasi Epistemologi Bisnis: Paradigma "Tourism of Civilization"
+Ekosistem MESITA dan Nusaparadise.id tidak beroperasi dengan logika "Tourism Industry" konvensional yang mereduksi destinasi menjadi komoditas. Model bisnis kita bertumpu pada **Tourism of Civilization**, di mana:
+* Wisatawan bukan sekadar konsumen, melainkan **Tamu Peradaban**.
+* Destinasi bukan produk jualan, melainkan **Mutiara Kehidupan**.
+* Setiap transaksi di dalam *website* bukanlah pemindahan uang semata, melainkan **Pertukaran Nilai Peradaban**.
+* Platform Nusaparadise.id bukan sekadar *marketplace*, melainkan **Kapal Peradaban**.
+
+### B. Ekspansi 6 Mesin Pendapatan Utama (The Revenue Engine)
+Untuk mendanai operasional Menara 45 Lantai dan mencapai target $100 Miliar pada tahun 2045, algoritma *website* Nusaparadise.id dirancang untuk menyedot likuiditas global melalui 6 pilar pendapatan terstruktur:
+
+1.  **Platform Commission (35%):** Urat nadi utama *website*. Memotong komisi 2-5% untuk pemesanan akomodasi di desa wisata, 5-8% untuk tur & aktivitas, hingga 5-10% untuk pemesanan ruang *Event & MICE* di Menara.
+2.  **Premium Listing (22%):** Monetisasi visibilitas. Hotel partner atau operator tur VIP membayar antara Rp 10 juta hingga Rp 100 juta per tahun untuk mendapatkan *boosting* algoritma dan *priority support* di pencarian Nusaparadise.id.
+3.  **Data & Analytics (18%):** Penjualan "Minyak Digital". Pemerintah dan *brand* hotel raksasa membayar langganan Rp 50-500 juta per tahun untuk mengakses *Nusa Tourism Intelligence* dan *Trend Report*.
+4.  **Investasi Fasilitasi (12%):** Diintegrasikan melalui portal *NusaInvest*. Platform mengambil 1-2% *fee* dari nilai transaksi *deal matching* (FDI) yang berhasil masuk ke Kawasan Ekonomi Khusus (SEZ) wisata.
+5.  **Government & Global Grants (8%):** Menyerap dana hijau (Green Climate Fund) dan dana kementerian (Kemenparekraf/Kemendes PDTT) untuk subsidi silang pengembangan sistem operasi *Village Paradise OS* di desa-desa terpencil.
+6.  **Licensing & API (5%):** Di Fase Delta (2034-2040), ekspor lisensi *White Label Platform* ke negara ASEAN lainnya (seperti Vietnam dan Thailand).
+
+### C. Framework Investasi 3 Jalur (Sovereign Capital Integration)
+Pembangunan infrastruktur fisik kita mengadopsi ketegasan *Saudi Vision 2030*, namun disempurnakan dengan keadilan KNBMP. *Website* akan menampilkan portal **NusaInvest** dengan 3 jalur pendaratan modal:
+
+* **Jalur 1: Anchor Investor (Minimum $100 Juta).** Ditujukan untuk *Sovereign Wealth Funds* (seperti PIF, Temasek, GIC) dan holding global. Mereka mendapatkan konsesi panjang di *Special Economic Zone* (SEZ) wisata seperti Raja Ampat atau Borobudur.
+* **Jalur 2: Growth Investor ($1 Juta – $100 Juta).** Ditujukan untuk *Private Equity*, *Venture Capital*, dan grup hotel. Modelnya berupa kepemilikan bersama (*co-ownership*) dengan target IRR 15-25%.
+* **Jalur 3: Community Investor (Mulai Rp 10 Juta).** Demokratisasi modal. Melalui *equity crowdfunding* **Kampung Modal** di bawah payung KNBMP, UMKM dan individu lokal dapat berinvestasi, memastikan anti-oligarki.
+
+### D. Jantung Distribusi: KNBMP Sebagai "Cooperative Engine"
+Seluruh pendapatan dari 6 mesin di atas **tidak** ditumpuk di kas PT Nusaparadise Global. Model bisnis ini terhubung langsung ke **Koperasi Nusa Berdikari Merah Putih (KNBMP)**.
+* Nusaparadise.id bertindak sebagai "Wajah ke dunia" (Global Portal).
+* KNBMP bertindak sebagai "Jantung di tanah" (Cooperative Engine).
+* Setiap rupiah yang masuk akan melalui *JP3 Pay* (Digital Wallet), di mana Sisa Hasil Usaha (SHU) dibagikan secara adil berdasarkan *Pentagon Kedaulatan* kepada 75.000+ desa yang menggunakan *Village Paradise OS*.
+
+### E. Integrasi 7 Ekosistem Vertikal di Antarmuka Website
+Saat *developer* membangun *website*, mereka harus menciptakan *User Interface* (UI) yang mengakomodasi 7 ekosistem bisnis ini dalam satu pintu:
+1.  **Nusaparadise Marketplace:** Pusat transaksi akomodasi (500.000+ properti), transportasi, dan suvenir.
+2.  **Nusa Cultural Experience:** Menjual *Living Heritage* (menginap di rumah adat) dan kelas memasak dari 5.350+ resep tradisional.
+3.  **Nusa Adventure:** Tur ekspedisi tingkat ekstrem (Diving Raja Ampat) hingga lunak (*soft trekking*).
+4.  **Nusa Wellness & Healing:** Bagian dari *Civilization Medical Tourism*, menawarkan terapi jamu, *retreat* di Borobudur, dan pengobatan presisi di RS Terkonek.
+5.  **Nusa MICE:** *Booking engine* korporat untuk *Convention Center* berkapasitas 10.000+ kursi dan *Gala Dinner* di Menara.
+6.  **Nusa Edu-Tourism:** Pertukaran pelajar ke desa wisata dan sertifikasi keahlian selam/kuliner.
+7.  **Nusa Carbon & ESG:** Menjual *Carbon Offset* langsung kepada turis saat *checkout* untuk mendanai target *Carbon Neutral 2040*.
