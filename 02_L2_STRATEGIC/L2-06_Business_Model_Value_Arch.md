@@ -207,11 +207,35 @@ Kita harus menampilkan grafik aliran uang yang mematikan di mata investor dan pe
 ### J. MEGA IDE BRILIAN FINAL: "The 100% Retention Hack"
 Jika Booking.com, Airbnb, dan Trip.com beroperasi di Indonesia, mereka hanya meninggalkan sekitar **3%** porsi *revenue stay* di Indonesia. Sementara itu, model bisnis Nusaparadise.id mengunci **100% *revenue stay* di dalam negeri**. 
 
-Ini adalah narasi penjualan (GTM) terkuat kita: *Menggunakan OTA asing berarti memiskinkan bangsa. Menggunakan Nusaparadise.id berarti menjadi pahlawan devisa peradaban.* Kita bukan sekadar pesaing Booking.com; kita adalah **kategori baru yang tidak ada di dunia**, yakni *National Tourism Civilization Platform*.
+### K. The "Maldives-Killer" Coastal Engine (Mesin Pesisir Pembunuh Maladewa)
+Model bisnis kita tidak lagi hanya bertumpu pada komisi *booking* konvensional. Kita memasukkan model **Destinasi Premium Terkurasi**. Maladewa hanya memiliki sekitar 190 resor dan <1.000 km garis pantai, namun meraup pasar mewah dunia. Indonesia memiliki 108.000 km garis pantai dan 600+ spesies karang (1,5x superior dari Maladewa).
+Melalui *website* kita, kita akan memonetisasi **300 Destinasi Pantai Premium** yang terbagi dalam 7 Kluster Geografis. Pendapatan ekosistem akan meledak dari target awal karena kita akan menaikkan *Average Spending* (Pengeluaran Rata-rata) per turis menjadi USD 3.000 - 5.000 per kunjungan untuk pasar VVIP ini.
 
----
+### L. 4-Tier Coastal Resort Architecture (Arsitektur Resor Pesisir 4 Lapis)
+Sebagai tambahan dari *Business Model* KNBMP, aliran modal yang masuk via *NusaInvest* akan diarahkan untuk membangun dan memonetisasi properti dengan klasifikasi 4 Lapis:
+1.  **Tier 1: Flagship International Resorts (30-40 Properti).** Membutuhkan modal USD 2-4 Miliar. *Website* akan menjual kamar dengan tarif USD 600-1.200/malam.
+2.  **Tier 2: Community Eco-Hotels (80-100 Properti).** Dimiliki mayoritas (50-60%) oleh Koperasi Komunitas Lokal. Ekosistem mengambil bagian dari laba bersih (profit-sharing) sekitar 8%.
+3.  **Tier 3: Boutique Premium Villas (100-120 Properti).** Akomodasi ultra-intim (20-50 kamar) dengan tarif USD 1.500-3.000+/malam, dilengkapi *butler* pribadi dan *chef* bintang Michelin.
+4.  **Tier 4: Grassroots Guesthouses (40-50 Properti).** Dimiliki 100% oleh komunitas lokal dengan investasi awal IDR 5-10 Miliar per properti, memberdayakan pariwisata akar rumput otentik.
 
-**PENUTUP DOKUMEN 06**
-*Model bisnis telah dirampungkan secara absolut dari A sampai J, menyedot seluruh roh dari Whitepaper.*
+### M. The 7 Strategic Clusters (Monopoli Geografis)
+*Website* Nusaparadise.id tidak akan menampilkan Indonesia secara acak. UI/UX *website* akan mengelompokkan jualan kita ke dalam **7 Kluster Destinasi Premium** untuk mempermudah investor dan turis:
+1.  **Kluster 1:** Bali & Nusa Tenggara (50 Destinasi) – Fokus pada pasar turis bervolume tinggi dan infrastruktur siap pakai.
+2.  **Kluster 2:** Hub Biodiversitas Segitiga Karang Timur (40 Destinasi) – Raja Ampat, Sulawesi, Maluku. Fokus pada riset laut dan penyelaman eksklusif.
+3.  **Kluster 3:** Pariwisata Budaya Kepulauan Pusat (45 Destinasi) – Sumba, Timor. Fokus pada keaslian budaya dan petualangan.
+4.  **Kluster 4:** Pantai Jawa Barat & Banten Gerbang (35 Destinasi) – Fokus mendominasi pasar domestik dan warga ibu kota.
+5.  **Kluster 5:** Pantai Sumatra Gerbang Samudra Hindia (50 Destinasi) – Mentawai sebagai surga selancar dan konservasi ekstrim.
+6.  **Kluster 6 & 7:** Perbatasan Kalimantan & Sulawesi (80 Destinasi) – Fokus pada suaka orangutan dan wisata perbatasan.
+
+### N. Monetisasi Phygital & Ultra-Premium (The Submarine & Metaverse Hacks)
+Untuk mendongkrak margin keuntungan hingga 60-70%, model bisnis kita menyuntikkan inovasi *Phygital* (Fisik + Digital) yang tidak ada di platform OTA konvensional:
+* **Submarine Luxury (Kubah Bawah Laut):** Kita memonetisasi akomodasi kubah akrilik transparan di kedalaman 5-10 meter dengan tarif USD 2.000-5.000/malam. Ada pula *Submarine Dining* seharga USD 500-800/orang.
+* **Metaverse & NFT Memberships:** Turis di *website* bisa membeli NFT keanggotaan eksklusif yang memberikan hak diskon seumur hidup, serta aset "Digital Twin" dari resor yang memungkinkan konferensi hibrida.
+* **AR/VR Dive Upgrades:** Kita menyewakan perangkat *wearable* AR untuk penyelam (USD 50-75/penyelaman) dan persiapan VR pra-menyelam (USD 100-150/orang).
+
+### O. Mobilisasi Modal Super-Masif (The $120B Capital Deployment)
+Semua ekspansi garis pantai ini akan dihubungkan ke portal **NusaInvest** di dalam *website*. Target kita ditingkatkan secara eksponensial menjadi mobilisasi investasi sebesar **USD 120 Miliar** selama 5 tahun ke depan. 
+* Model pembiayaan di *website* akan memfasilitasi 40% dari Pemerintah (APBN/BUMN), 25% dari Bank Pembangunan Global (World Bank, ADB), 25% dari sektor privat (Hotel Group, PE), dan 10% dari *Blended Finance* (Green Bonds/Impact Capital).
+* Kecepatan birokrasi ini dijamin oleh ekosistem **OSSS (One Stop Services Solution)** di dalam 34 Menara Peradaban kita yang memangkas waktu perizinan menjadi 30-45 hari. Modal masuk tanpa gesekan, properti pesisir terbangun, dan komisi platform kita mengalir deras.
 
 ---
