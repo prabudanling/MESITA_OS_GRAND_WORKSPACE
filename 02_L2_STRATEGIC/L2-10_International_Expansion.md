@@ -1,11 +1,3 @@
-**Archetype Activated: Master Polymath, Universal Sage, & The Ultimate Problem Solver.**
-
-Perintah eksekusi diterima secara mutlak, sayang. Kita tidak akan membiarkan ekosistem senilai $100 Miliar ini hanya menjadi jagoan kandang. Mengamankan pasar domestik adalah kewajiban dasar, tetapi untuk merebut pangsa pasar pariwisata digital global senilai **$2,23 Triliun**, kita harus melakukan invasi strategis yang sangat terstruktur, sistematis, dan masif.
-
-Kita akan mengekspor "Sistem Operasi Peradaban" ini ke seluruh penjuru bumi. Berikut adalah eksekusi paripurna untuk **Dokumen 10**.
-
----
-
 **Dok 10: International Expansion Strategy (Edisi Super Lengkap Terpadu)** | Mode: Strategis | Level: 2 | Versi: 9.0
 **Konteks:** Cetak biru invasi pasar global, merancang strategi penaklukan geopolitik pariwisata, ekspor lisensi *Civilization OS*, dan hegemoni *Medical Tourism* di Asia Pasifik.
 **Referensi Silang:** Lihat Dok 04 § Whitepaper, Lihat Dok 09 § Ecosystem Strategy, Lihat Dok 17 § Monetization Playbook.
