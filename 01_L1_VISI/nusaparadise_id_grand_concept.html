@@ -1,0 +1,359 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+--np-gold:#B8943A;--np-gold-light:#D4AC52;--np-emerald:#0D4A3A;
+--np-ocean:#0B3D6B;--np-coral:#C84B2A;--np-cream:#F7F3EC;
+}
+.np-root{font-family:'DM Sans',sans-serif;color:var(--color-text-primary);max-width:760px;margin:0 auto;padding:0 0 3rem}
+.hero{text-align:center;padding:3rem 1.5rem 2rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.hero-kicker{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:1.2rem}
+.hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(42px,7vw,72px);font-weight:600;line-height:1.05;color:var(--color-text-primary);margin-bottom:0.8rem}
+.hero-title em{font-style:italic;color:var(--np-gold)}
+.hero-sub{font-size:15px;color:var(--color-text-secondary);line-height:1.7;max-width:520px;margin:0 auto 2rem;font-weight:300}
+.badge-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:2rem}
+.badge{font-size:11px;padding:5px 12px;border-radius:20px;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary);font-weight:500}
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 1.5rem;margin-bottom:2.5rem}
+.stat-card{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:1rem;text-align:center}
+.stat-num{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;color:var(--color-text-primary);line-height:1}
+.stat-num span{font-size:16px;font-weight:400}
+.stat-lbl{font-size:11px;color:var(--color-text-tertiary);margin-top:4px;line-height:1.4}
+.section{padding:2rem 1.5rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.sec-label{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:0.5rem}
+.sec-title{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;color:var(--color-text-primary);margin-bottom:0.4rem}
+.sec-title em{font-style:italic;color:var(--np-gold)}
+.sec-sub{font-size:14px;color:var(--color-text-secondary);line-height:1.7;margin-bottom:1.5rem;font-weight:300}
+.vision-block{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:1.5rem;border-left:3px solid var(--np-gold);margin-bottom:1rem}
+.vision-text{font-family:'Cormorant Garamond',serif;font-size:20px;font-style:italic;line-height:1.6;color:var(--color-text-primary)}
+.pillars-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.pillar{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.2rem;cursor:pointer;transition:border-color .2s,transform .15s;position:relative;overflow:hidden}
+.pillar:hover{border-color:var(--color-border-primary);transform:translateY(-2px)}
+.pillar.active{border-color:var(--np-gold)}
+.pillar-num{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:600;color:var(--color-border-secondary);line-height:1;margin-bottom:0.5rem}
+.pillar-icon{font-size:20px;margin-bottom:0.5rem}
+.pillar-name{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:0.3rem}
+.pillar-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.pillar-detail{margin-top:1.2rem;padding:1.2rem;background:var(--color-background-secondary);border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-tertiary);display:none}
+.pillar-detail.show{display:block}
+.detail-title{font-weight:500;font-size:14px;margin-bottom:0.8rem;color:var(--color-text-primary)}
+.detail-items{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:11px;padding:3px 10px;border-radius:12px;background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);color:var(--color-text-secondary)}
+.gov-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:1rem}
+.gov-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.2rem}
+.gov-title{font-size:13px;font-weight:500;margin-bottom:0.8rem;display:flex;align-items:center;gap:8px}
+.gov-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.gov-dot.gold{background:var(--np-gold)}
+.gov-dot.teal{background:var(--np-emerald)}
+.gov-dot.blue{background:var(--np-ocean)}
+.gov-dot.coral{background:var(--np-coral)}
+.gov-list{font-size:12px;color:var(--color-text-secondary);line-height:2}
+.phase-track{position:relative;margin:1rem 0}
+.phase-line{position:absolute;top:20px;left:20px;right:20px;height:1px;background:var(--color-border-tertiary)}
+.phase-fill{position:absolute;top:20px;left:20px;width:0;height:1px;background:var(--np-gold);transition:width 1s ease}
+.phases-row{display:flex;justify-content:space-between;position:relative;padding:0 0 0}
+.phase-node{display:flex;flex-direction:column;align-items:center;gap:10px;cursor:pointer;flex:1}
+.phase-circle{width:40px;height:40px;border-radius:50%;border:0.5px solid var(--color-border-secondary);background:var(--color-background-primary);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;transition:all .2s;z-index:1}
+.phase-node.done .phase-circle{background:var(--np-gold);border-color:var(--np-gold);color:#fff}
+.phase-node.active .phase-circle{border:2px solid var(--np-gold);color:var(--np-gold)}
+.phase-yr{font-size:10px;color:var(--color-text-tertiary);font-weight:500}
+.phase-name{font-size:11px;color:var(--color-text-secondary);text-align:center;max-width:90px;line-height:1.4}
+.phase-detail{margin-top:1.5rem;padding:1.2rem;background:var(--color-background-secondary);border-radius:var(--border-radius-md)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.rev-item{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:1rem}
+.rev-name{font-size:12px;font-weight:500;margin-bottom:0.3rem}
+.rev-pct{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--np-gold);line-height:1;margin-bottom:0.2rem}
+.rev-note{font-size:11px;color:var(--color-text-tertiary);line-height:1.4}
+.invest-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.tier{border-radius:var(--border-radius-lg);padding:1.2rem;border:0.5px solid var(--color-border-tertiary);background:var(--color-background-primary)}
+.tier.featured{border-color:var(--np-gold)}
+.tier-badge{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:0.8rem;display:inline-block;padding:3px 10px;border-radius:12px;border:0.5px solid var(--color-border-secondary);color:var(--color-text-secondary)}
+.tier.featured .tier-badge{border-color:var(--np-gold);color:var(--np-gold)}
+.tier-title{font-weight:500;font-size:15px;margin-bottom:0.3rem}
+.tier-amount{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;color:var(--color-text-primary);margin-bottom:0.8rem;line-height:1}
+.tier-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.os-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.os-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1.2rem}
+.os-tag{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:0.5rem}
+.os-title{font-size:14px;font-weight:500;margin-bottom:0.5rem}
+.os-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.cta-block{text-align:center;padding:3rem 1.5rem;background:var(--color-background-secondary);margin:2rem 0 0;border-radius:var(--border-radius-lg)}
+.cta-title{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:600;margin-bottom:0.5rem}
+.cta-sub{font-size:14px;color:var(--color-text-secondary);margin-bottom:1.5rem}
+.cta-btn{display:inline-block;padding:12px 28px;border-radius:8px;border:1.5px solid var(--np-gold);color:var(--np-gold);font-size:14px;font-weight:500;cursor:pointer;transition:all .2s;background:transparent}
+.cta-btn:hover{background:var(--np-gold);color:#fff}
+.tab-row{display:flex;gap:0;border-bottom:0.5px solid var(--color-border-tertiary);margin-bottom:1.5rem}
+.tab{padding:10px 20px;font-size:13px;font-weight:500;cursor:pointer;color:var(--color-text-secondary);border-bottom:2px solid transparent;transition:all .15s;white-space:nowrap}
+.tab.active{color:var(--color-text-primary);border-bottom-color:var(--np-gold)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+@media(max-width:540px){.stat-row{grid-template-columns:repeat(2,1fr)}.gov-grid,.os-grid{grid-template-columns:1fr}.invest-tiers{grid-template-columns:1fr}.rev-grid{grid-template-columns:repeat(2,1fr)}.pillars-grid{grid-template-columns:1fr}}
+</style>
+
+<div class="np-root">
+<h2 class="sr-only">Konsep Nusaparadise.id — Portal Wisata Terobosan Indonesia untuk Dunia</h2>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-kicker">Concept Document · 2025</div>
+  <h1 class="hero-title">Nusa<em>paradise</em>.id</h1>
+  <p class="hero-sub">Surga wisata dunia, dari Indonesia. Portal terobosan yang mengintegrasikan seluruh ekosistem pariwisata nusantara dalam satu platform berstandar peradaban global.</p>
+  <div class="badge-row">
+    <span class="badge">Didukung ASITA Nasional</span>
+    <span class="badge">34 Kementrian</span>
+    <span class="badge">Open Source Platform</span>
+    <span class="badge">Target $100B · 2045</span>
+    <span class="badge">Indonesia Vision 2045</span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div style="padding:1.5rem">
+<div class="stat-row">
+  <div class="stat-card"><div class="stat-num">17<span>rb+</span></div><div class="stat-lbl">Pulau indah nusantara</div></div>
+  <div class="stat-card"><div class="stat-num">714</div><div class="stat-lbl">Suku bangsa & budaya</div></div>
+  <div class="stat-card"><div class="stat-num">$17<span>B</span></div><div class="stat-lbl">Pendapatan wisata saat ini</div></div>
+  <div class="stat-card"><div class="stat-num">2045</div><div class="stat-lbl">Visi Indonesia Emas</div></div>
+</div>
+</div>
+
+<!-- VISION -->
+<div class="section">
+  <div class="sec-label">Grand Vision</div>
+  <h2 class="sec-title">Bukan sekadar portal.<br><em>Sebuah peradaban wisata.</em></h2>
+  <p class="sec-sub">Seperti Saudi Vision 2030 merevolusi Arabia, Nusaparadise.id akan merevolusi cara dunia melihat, merasakan, dan mencintai Indonesia — sebagai surga yang sesungguhnya.</p>
+  <div class="vision-block">
+    <div class="vision-text">"Menjadikan Indonesia sebagai destinasi wisata paling dikagumi, paling dicintai, dan paling menguntungkan di dunia — dengan tata kelola kelas dunia, teknologi terbuka, dan jiwa peradaban yang luhur."</div>
+  </div>
+  <div class="vision-block" style="border-left-color:var(--np-ocean)">
+    <div class="vision-text">"Setiap desa wisata adalah mutiara. Setiap budaya lokal adalah mahkota. Setiap investor adalah mitra peradaban. Nusaparadise.id adalah kapal besar yang membawa semuanya berlayar bersama."</div>
+  </div>
+</div>
+
+<!-- 7 PILLARS -->
+<div class="section">
+  <div class="sec-label">7 Mega Pilar</div>
+  <h2 class="sec-title">Arsitektur <em>surga</em> yang sesungguhnya</h2>
+  <p class="sec-sub">Tujuh dimensi keunggulan yang menjadikan Indonesia tak tertandingi di dunia sebagai destinasi wisata peradaban.</p>
+  <div class="pillars-grid" id="pillars-grid"></div>
+  <div class="pillar-detail" id="pillar-detail">
+    <div class="detail-title" id="pd-title"></div>
+    <div class="detail-items" id="pd-items"></div>
+  </div>
+</div>
+
+<!-- GOVERNANCE + PARTNERSHIP -->
+<div class="section">
+  <div class="sec-label">Tata Kelola & Kemitraan</div>
+  <h2 class="sec-title">Struktur <em>kelembagaan</em> kelas dunia</h2>
+  <p class="sec-sub">Nusaparadise.id dibangun di atas fondasi governance yang kuat: ASITA sebagai tulang punggung, semua kementerian sebagai pilar, dan investor dunia sebagai mitra strategis.</p>
+  <div class="gov-grid">
+    <div class="gov-card">
+      <div class="gov-title"><div class="gov-dot gold"></div>Dewan Tertinggi</div>
+      <div class="gov-list">
+        Ketua Umum · Ketua Umum ASITA<br>
+        Wakil · Menteri Pariwisata RI<br>
+        Komite Strategis · 7 Kementrian Inti<br>
+        Dewan Pengawas · BKPM + BI<br>
+        Sekretariat Nasional · Jakarta
+      </div>
+    </div>
+    <div class="gov-card">
+      <div class="gov-title"><div class="gov-dot teal"></div>Kementrian Mitra</div>
+      <div class="gov-list">
+        Kemenparekraf (lead)<br>
+        Kemenko Investasi<br>
+        Kemenlu & Kemendag<br>
+        Kemenhub & Kominfo<br>
+        Kemen BUMN & Kemen ESDM<br>
+        Kemendes PDTT (desa wisata)
+      </div>
+    </div>
+    <div class="gov-card">
+      <div class="gov-title"><div class="gov-dot blue"></div>Ekosistem ASITA</div>
+      <div class="gov-list">
+        34 DPD ASITA Provinsi<br>
+        1.200+ Biro Perjalanan<br>
+        50.000+ Anggota Aktif<br>
+        Sertifikasi Standar Global<br>
+        Program ASITA Academy
+      </div>
+    </div>
+    <div class="gov-card">
+      <div class="gov-title"><div class="gov-dot coral"></div>Investor & Mitra Global</div>
+      <div class="gov-list">
+        Sovereign Wealth Funds (GCC, Asia)<br>
+        PE & VC Internasional<br>
+        Hotel Group Global (10 brand)<br>
+        OTA Global (Booking, Expedia)<br>
+        Investor Domestik (BEI-listed)
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DIGITAL & OPEN SOURCE -->
+<div class="section">
+  <div class="sec-label">Platform Digital</div>
+  <h2 class="sec-title">Open Source · <em>Terbuka untuk peradaban</em></h2>
+  <p class="sec-sub">Nusaparadise.id dibangun sebagai open source platform — mengundang developer dunia, komunitas lokal, dan mitra teknologi untuk bersama membangun surga digital Indonesia.</p>
+  <div class="os-grid">
+    <div class="os-card">
+      <div class="os-tag">Core Platform</div>
+      <div class="os-title">Nusaparadise Engine</div>
+      <div class="os-desc">Next.js · API-first · Multi-bahasa (ID/EN/AR/ZH/JP). Search cerdas berbasis AI untuk 10.000+ destinasi, paket wisata, dan pengalaman lokal.</div>
+    </div>
+    <div class="os-card">
+      <div class="os-tag">AI Layer</div>
+      <div class="os-title">Nusa Intelligence</div>
+      <div class="os-desc">AI kurator wisata personal, penerjemah budaya real-time, prediksi cuaca & crowding, rekomendasi rute optimal, chatbot 24/7 dalam 12 bahasa.</div>
+    </div>
+    <div class="os-card">
+      <div class="os-tag">Desa Wisata Module</div>
+      <div class="os-title">Village Paradise OS</div>
+      <div class="os-desc">Sistem manajemen desa wisata mandiri: booking, pembayaran, laporan keuangan, pelatihan digital. Gratis untuk 75.000+ desa di Indonesia.</div>
+    </div>
+    <div class="os-card">
+      <div class="os-tag">Investor Portal</div>
+      <div class="os-title">NusaInvest Dashboard</div>
+      <div class="os-desc">Due diligence tools, deal flow matching, ROI calculator, legal framework guide, dan koneksi langsung ke BKPM. Transparan, akuntabel, digital-first.</div>
+    </div>
+    <div class="os-card">
+      <div class="os-tag">Data & Analytics</div>
+      <div class="os-title">Nusa Data Commons</div>
+      <div class="os-desc">Open data wisata Indonesia: arus wisatawan, spending pattern, sustainability index. Data publik untuk riset, pemerintah, dan komunitas global.</div>
+    </div>
+    <div class="os-card">
+      <div class="os-tag">Community Layer</div>
+      <div class="os-title">Archipelago Network</div>
+      <div class="os-desc">Jaringan komunitas penggiat wisata nusantara: pemandu lokal, pengrajin, seniman budaya, chef tradisional — divalidasi, dikurasi, dikembangkan bersama.</div>
+    </div>
+  </div>
+</div>
+
+<!-- INVESTMENT TIERS -->
+<div class="section">
+  <div class="sec-label">Framework Investasi</div>
+  <h2 class="sec-title">Tiga jenjang <em>kemitraan investasi</em></h2>
+  <p class="sec-sub">Dari investor institusional global hingga UMKM lokal — setiap pihak memiliki pintu masuk yang jelas, transparan, dan menguntungkan.</p>
+  <div class="invest-tiers">
+    <div class="tier">
+      <span class="tier-badge">Anchor Investor</span>
+      <div class="tier-title">Sovereign & Strategic</div>
+      <div class="tier-amount">$100M+</div>
+      <div class="tier-desc">Sovereign Wealth Fund, BUMN besar, Holding Group Global. Akses eksklusif ke Special Economic Zone wisata dan konsesi jangka panjang.</div>
+    </div>
+    <div class="tier featured">
+      <span class="tier-badge">Growth Investor</span>
+      <div class="tier-title">Growth & Scale Partners</div>
+      <div class="tier-amount">$1M–$100M</div>
+      <div class="tier-desc">PE, VC, Hospitality Group, Tech Company. Platform co-ownership, revenue sharing, dan akses prioritas ke 500+ proyek pipeline wisata nasional.</div>
+    </div>
+    <div class="tier">
+      <span class="tier-badge">Community Investor</span>
+      <div class="tier-title">UMKM & Komunitas</div>
+      <div class="tier-amount">Rp 10Jt+</div>
+      <div class="tier-desc">Desa wisata, pengusaha lokal, koperasi. Equity crowdfunding, pelatihan, sertifikasi, dan akses ke jaringan distribusi global Nusaparadise.</div>
+    </div>
+  </div>
+</div>
+
+<!-- REVENUE MODEL -->
+<div class="section">
+  <div class="sec-label">Model Pendapatan</div>
+  <h2 class="sec-title">Enam sumber <em>kekuatan finansial</em></h2>
+  <div class="rev-grid">
+    <div class="rev-item"><div class="rev-pct">35%</div><div class="rev-name">Platform Commission</div><div class="rev-note">2–5% dari setiap transaksi wisata yang terjadi di platform</div></div>
+    <div class="rev-item"><div class="rev-pct">22%</div><div class="rev-name">Premium Listing</div><div class="rev-note">Paket visibilitas premium untuk destinasi, hotel, dan operator</div></div>
+    <div class="rev-item"><div class="rev-pct">18%</div><div class="rev-name">Data & Analytics</div><div class="rev-note">Layanan intelijen wisata untuk pemerintah dan korporasi</div></div>
+    <div class="rev-item"><div class="rev-pct">12%</div><div class="rev-name">Investasi Fasilitasi</div><div class="rev-note">Deal matching fee dan advisory untuk proyek investasi</div></div>
+    <div class="rev-item"><div class="rev-pct">8%</div><div class="rev-name">Government Grants</div><div class="rev-note">Dana pengembangan dari Kemenparekraf dan lembaga internasional</div></div>
+    <div class="rev-item"><div class="rev-pct">5%</div><div class="rev-name">Licensing & API</div><div class="rev-note">Lisensi teknologi ke platform wisata regional ASEAN</div></div>
+  </div>
+</div>
+
+<!-- ROADMAP -->
+<div class="section">
+  <div class="sec-label">Peta Jalan 2025–2045</div>
+  <h2 class="sec-title">Lima fase <em>menuju surga dunia</em></h2>
+  <p class="sec-sub">Dari peluncuran alpha hingga Indonesia menjadi destinasi wisata terbesar dan paling dikagumi di planet ini.</p>
+  <div class="phase-track">
+    <div class="phase-line"></div>
+    <div class="phase-fill" id="phase-fill"></div>
+    <div class="phases-row" id="phases-row"></div>
+  </div>
+  <div class="phase-detail" id="phase-detail"></div>
+</div>
+
+<!-- CTA -->
+<div style="padding:0 1.5rem">
+<div class="cta-block">
+  <div class="cta-title">Mari membangun surga bersama</div>
+  <div class="cta-sub">Nusaparadise.id adalah panggilan bagi mereka yang percaya bahwa Indonesia layak menjadi #1 di dunia.</div>
+  <button class="cta-btn" onclick="sendPrompt('Buatkan aku pitch deck executive summary untuk Nusaparadise.id yang siap dipresentasikan ke investor dan kementrian')">Buat Pitch Deck Executive Summary ↗</button>
+</div>
+</div>
+</div>
+
+<script>
+const pillars=[
+  {n:"01",icon:"🏝",name:"Surga Alam",desc:"17.504 pulau, 81.000 km pantai, hutan hujan tropis terluas kedua dunia",detail:"Kekayaan alam yang tak tertandingi di muka bumi",items:["Raja Ampat","Komodo","Bunaken","Wakatobi","Danau Toba","Bromo-Tengger","Gunung Rinjani","Kalimantan Rainforest","Papua Wilderness","Bali Terraces","Flores Diving","Bangka Belitung"]},
+  {n:"02",icon:"🎭",name:"Surga Budaya",desc:"714 suku bangsa, 1.300 bahasa daerah, warisan budaya dunia yang hidup",detail:"Keanekaragaman budaya yang menjadi kekuatan, bukan sekadar keunikan",items:["Batik UNESCO","Wayang Kulit","Tari Kecak","Subak Bali","Toraja","Dayak Heritage","Minangkabau","Saman Dance","Kraton Yogya","Borobudur","Prambanan","Majapahit Trail"]},
+  {n:"03",icon:"🍜",name:"Surga Kuliner",desc:"5.350+ resep tradisional, masakan terlezat versi CNN Travel",detail:"Kuliner Indonesia adalah diplomasi peradaban yang paling efektif",items:["Rendang #1 Dunia","Nasi Goreng","Soto Nusantara","Gado-gado","Pempek Palembang","Papeda Papua","Rujak Cingur","Babi Guling Bali","Ayam Betutu","Sate 50+ Varian","Laksa Betawi","Mie Aceh"]},
+  {n:"04",icon:"🕌",name:"Surga Spiritual",desc:"Wisata religi lintas iman: Islam, Hindu, Buddha, Kristen, kepercayaan leluhur",detail:"Indonesia adalah laboratorium spiritual terbesar dan paling damai di dunia",items:["Istiqlal Jakarta","Pura Besakih","Candi Borobudur","Gereja Blenduk","Klenteng Kuno","Ziarah Wali Songo","Toraja Funeral Rites","Nyepi Bali","Lebaran Nusantara","Pesantren Tourism","Healing Retreat","Spiritual Heritage"]},
+  {n:"05",icon:"💡",name:"Surga Digital",desc:"Smart Tourism, AI-powered platform, open source, terhubung ke seluruh dunia",detail:"Teknologi bukan hanya alat — ia adalah bahasa baru peradaban wisata",items:["AI Tour Guide","AR Heritage Sites","Blockchain Cert","Smart Desa Wisata","Digital Wayfinding","Open API","Data Dashboard","Contactless Pay","IoT Crowd Control","Carbon Tracker","Real-time Safety","Multi-language AI"]},
+  {n:"06",icon:"💰",name:"Surga Investasi",desc:"$50B target investasi, Special Economic Zone, regulatory sandbox wisata",detail:"Tidak ada tempat yang lebih menjanjikan untuk berinvestasi di sektor wisata selain Indonesia",items:["SEZ Wisata","Tax Holiday","Land Concession","BKPM Fast Track","Hotel Development","Eco-Resort","Adventure Park","Cultural Center","MICE Facility","Culinary Hub","Wellness Resort","Heritage Hotel"]},
+  {n:"07",icon:"🌿",name:"Surga Ekologi",desc:"Sustainable tourism, carbon neutral 2040, pelestarian biodiversitas global",detail:"Surga hanya bisa abadi jika dijaga — keberlanjutan adalah amanah peradaban",items:["Carbon Neutral 2040","Blue Carbon","Zero Waste Zone","Marine Protection","Reforestation Tourism","Eco Certification","Community Benefit","Wildlife Corridor","Plastic-Free Islands","Green MICE","Biodiversity Tourism","Climate Resilience"]}
+];
+
+const pg=document.getElementById('pillars-grid');
+const pd=document.getElementById('pillar-detail');
+const pdTitle=document.getElementById('pd-title');
+const pdItems=document.getElementById('pd-items');
+let activePillar=-1;
+
+pillars.forEach((p,i)=>{
+  const el=document.createElement('div');
+  el.className='pillar';
+  el.innerHTML=`<div class="pillar-num">${p.n}</div><div class="pillar-icon">${p.icon}</div><div class="pillar-name">${p.name}</div><div class="pillar-desc">${p.desc}</div>`;
+  el.onclick=()=>{
+    if(activePillar===i){activePillar=-1;pd.classList.remove('show');document.querySelectorAll('.pillar').forEach(x=>x.classList.remove('active'));return;}
+    activePillar=i;
+    document.querySelectorAll('.pillar').forEach(x=>x.classList.remove('active'));
+    el.classList.add('active');
+    pdTitle.textContent=p.detail;
+    pdItems.innerHTML=p.items.map(x=>`<span class="chip">${x}</span>`).join('');
+    pd.classList.add('show');
+    pd.scrollIntoView({behavior:'smooth',block:'nearest'});
+  };
+  pg.appendChild(el);
+});
+
+const phases=[
+  {yr:"2025",name:"Fondasi & Alpha",circle:"α",detail:"Pembentukan badan hukum, penandatanganan MoU dengan ASITA dan 7 kementrian inti. Peluncuran alpha platform kepada 100 destinasi pilot. Rekrutmen tim teknologi dan editorial nasional. Target: Rp 50M seed funding dari BUMN."},
+  {yr:"2027",name:"Ekspansi Nasional",circle:"I",detail:"Full platform launch: 1.000 destinasi aktif, 500 mitra operator wisata. Integrasi dengan Kemenparekraf, BKPM, dan Bank Indonesia. Peluncuran Village Paradise OS untuk 5.000 desa wisata. Target: 1 juta pengguna aktif bulanan."},
+  {yr:"2030",name:"Magnet Investasi",circle:"II",detail:"NusaInvest Dashboard live, deal flow internasional aktif. 3 Special Economic Zone Wisata beroperasi. Kemitraan dengan 10 hotel group global. Target: $5B investasi baru masuk ke sektor wisata. Revenue platform: Rp 500M/bulan."},
+  {yr:"2037",name:"Dominasi ASEAN",circle:"III",detail:"Nusaparadise.id menjadi platform wisata #1 di Asia Tenggara. Ekspansi teknologi ke Vietnam, Thailand, Filipina (lisensi). 50.000 desa wisata aktif. 20 juta wisatawan mancanegara via platform. Pendapatan wisata nasional: $50B/tahun."},
+  {yr:"2045",name:"Surga Dunia",circle:"★",detail:"Indonesia menjadi top 5 destinasi wisata dunia. Pendapatan wisata $100B/tahun. 1 juta lapangan kerja langsung dari ekosistem Nusaparadise. Platform diadopsi 15 negara. Indonesia Emas 2045 — surga yang sesungguhnya bagi dunia."}
+];
+const pr=document.getElementById('phases-row');
+const phFill=document.getElementById('phase-fill');
+const phDetail=document.getElementById('phase-detail');
+let activePhase=0;
+
+phases.forEach((p,i)=>{
+  const el=document.createElement('div');
+  el.className='phase-node'+(i===0?' done active':'');
+  el.innerHTML=`<div class="phase-circle">${p.circle}</div><div class="phase-yr">${p.yr}</div><div class="phase-name">${p.name}</div>`;
+  el.onclick=()=>{
+    activePhase=i;
+    document.querySelectorAll('.phase-node').forEach((n,j)=>{
+      n.className='phase-node'+(j<=i?' done':'')+(j===i?' active':'');
+    });
+    phFill.style.width=((i/(phases.length-1))*100)+'%';
+    phDetail.innerHTML=`<strong style="font-size:13px;font-weight:500">${p.yr} — ${p.name}</strong><p style="font-size:13px;color:var(--color-text-secondary);margin-top:8px;line-height:1.7">${p.detail}</p>`;
+  };
+  pr.appendChild(el);
+});
+phDetail.innerHTML=`<strong style="font-size:13px;font-weight:500">${phases[0].yr} — ${phases[0].name}</strong><p style="font-size:13px;color:var(--color-text-secondary);margin-top:8px;line-height:1.7">${phases[0].detail}</p>`;
+phFill.style.width='0%';
+</script>
