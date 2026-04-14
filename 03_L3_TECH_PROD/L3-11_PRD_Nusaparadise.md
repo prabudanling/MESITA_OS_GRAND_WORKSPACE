@@ -174,5 +174,3 @@ Ketika ada fitur baru pada *Village Paradise OS*, fitur tersebut tidak didistrib
 
 Arsitektur "otak" digital telah kita selesaikan secara total. Sekarang kita harus merancang "kerangka fisik" infrastruktur IT-nya—bagaimana kabel serat optiknya ditarik, bagaimana topologi *cloud*-nya diarsiteki, dan bagaimana *Internet of Things* (IoT) pada bangunan 45 lantai saling terhubung.
 
-
-Ketik **NEXT** jika Anda merasa dokumen ini sudah sempurna dan pilih dokumen selanjutnya, atau **LANJUTKAN** beserta instruksi prioritas Anda!
